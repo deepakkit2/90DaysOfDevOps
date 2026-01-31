@@ -1,0 +1,2 @@
+cretae 2 vms
+connect 1 vm to another( gen ssh key. KEEP private KEY on server AND PUSH PUBLIC PUB KEY ON REMOTE( 2ND ) VM AND THEN CONNECT
