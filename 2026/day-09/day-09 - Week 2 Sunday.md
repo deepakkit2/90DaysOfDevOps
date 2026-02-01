@@ -8,7 +8,7 @@ Networking For DevOps
 • Why networking is important for DevOps? eg. network outage in AWS 2025 - DNS Issue
 • OSI & TCP/IP Model
 • IP addresses, Ports, Subnets
-• Protocols (HTTP, TCP, UDP, TLS, SSL, ICMP, FTP, SMTP, DNS
+• Protocols (HTTP, TCP, UDP, TLS, SSL, ICMP, FTP, SMTP, DNS)
 • Load Balancers
 
 
@@ -21,4 +21,6 @@ Transport (TCP)
 Network
 Data Link Layer
 Physical
-<img width="1090" height="594" alt="image" src="https://github.com/user-attachments/assets/911ba632-ba38-4389-935f-7d1fd0d6bbd4" />
+<img width="1238" height="433" alt="image" src="https://github.com/user-attachments/assets/728dba6c-9955-410c-a989-055aa49ac336" />
+
+
