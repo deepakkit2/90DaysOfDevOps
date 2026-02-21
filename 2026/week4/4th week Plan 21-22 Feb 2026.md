@@ -27,3 +27,60 @@ docker run -itd ubuntu // To create ubuntu image in docker
 
 
  
+cretae docker file from local image
+cretae local image
+
+docker build -t myappname:latest .    // -t myapp:latest → tags the image with a name and version. but
+. → means “build from the current directory.”
+
+Steps to Build a Docker Image from a Dockerfile
+
+Prepare Your Project Directory
+
+Create a folder for your project and place your application files inside it.
+Add a Dockerfile (no file extension) in the same directory.
+Write Your Dockerfile
+Example:
+
+Dockerfile
+
+Copy code
+# Use an official Python runtime as a base image
+FROM python:3.10-slim
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy local files to container
+COPY . /app
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Command to run the app
+CMD ["python", "app.py"]
+Build the Docker Image
+Open a terminal in the same directory as your Dockerfile and run:
+
+Bash
+docker build -t myapp:latest .
+
+
+-t myapp:latest → tags the image with a name and version.
+. → means “build from the current directory.”
+
+Verify the Image
+docker images
+
+Copy code
+docker images
+You should see myapp listed.
+
+Run the Container
+
+Bash
+
+Copy code
+docker run -d -p 5000:5000 myapp:latest
+-d → runs in detached mode.
+-p 5000:5000 → maps container port 5000 to your machine’s port 5000.
