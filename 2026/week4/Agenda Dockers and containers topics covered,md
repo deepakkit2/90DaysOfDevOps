@@ -39,4 +39,7 @@ docker build —t flask—app .   // build and image
 docker pull python31.4-slim  // pull imgae from offical repo to local
 docker images // to show local images
 
-docker build —f Docker file.multisltage —t flask—app—mini .          
+docker build —f Docker file.multisltage —t flask—app—mini .  
+
+docker volume create mysql—data mysql—data //create volumne
+
