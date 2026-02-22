@@ -15,6 +15,21 @@ CLI, Docker, docker hub
 
 • Containers — Nginx, MySQL, MongoDB, ubuntu
 
+Docker Advanced: 2-3 years Experience
+• My Docker image size is too big. reduce it and secure it [Multi-stage Docker Builds]
+(Distroless images) [l feel confident in this scenario]l
+1
+• My container crashed; I lost all my data. How do I persist my data? [Docker Volumes]
+• I want to run a multi-tier project which has a frontend, a backend, database, and Al LLM
+•
+•
+•
+integration [Docker Compose — Docker Network, Docker Volumes, Health Checks].
+Docker Hardened Images
+Docker Scout
+Docker Hub
+
+
 
 docker cmds
 docker ps
