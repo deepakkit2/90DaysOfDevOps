@@ -84,3 +84,8 @@ Copy code
 docker run -d -p 5000:5000 myapp:latest
 -d → runs in detached mode.
 -p 5000:5000 → maps container port 5000 to your machine’s port 5000.
+
+docker cmds
+docker ps prune to delete images which were in used and curently stopped.
+docker rmi image id  // to remove images 
+
