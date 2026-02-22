@@ -1,0 +1,21 @@
+"Everything in Linux is either a file or a directory" I "Everything is a process"
+Dockerfile se bannti hai Image, image se bannta hai container"
+
+docker structure
+
+  
+dockers 
+
+Docker Concepts
+
+• Why, what, and how do we learn Docker?
+• Virtualization vs Containerisation
+• Terminologies - Docker Engine, Docker Client, Docker Daemon, Docker Registry, Docker
+CLI, Docker, docker hub
+
+• Containers — Nginx, MySQL, MongoDB, ubuntu
+
+
+docker cmds
+docker ps
+docker run
